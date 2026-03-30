@@ -1,1 +1,8 @@
+
+# MySQL データ
 docker/mysql/data/
+
+# 環境設定や依存関係
+.env
+vendor/
+node_modules/
