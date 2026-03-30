@@ -1,0 +1,127 @@
+​自分​
+
+/* 全体 */
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #6b5b4f;
+}
+
+/* タイトル（Fashionably Late） */
+.brand {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* カード */
+.card {
+    width: 700px;
+    margin: 40px auto;
+}
+
+/* Contact */
+.title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+/* 行 */
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+/* ラベル */
+.label {
+    width: 200px;
+    font-size: 14px;
+}
+
+/* 必須 */
+.required {
+    color: red;
+    margin-left: 5px;
+}
+
+/* 入力エリア */
+.field {
+    flex: 1;
+    display: flex;
+    gap: 15px;
+}
+
+/* 入力欄 */
+.field input,
+.field select,
+.field textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #f3f3f3;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* プレースホルダ */
+::placeholder {
+    color: #999;
+}
+
+/* 名前 */
+.field.name input {
+    width: 48%;
+}
+
+/* 電話番号 */
+.field.tel input {
+    width: 80px;
+    text-align: center;
+}
+
+/* ラジオ */
+.field label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 5px;
+}
+.field input[type="radio"]{
+    width: auto;
+}
+
+/* テキストエリア */
+.field textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* セレクト */
+.field select {
+    appearance: none;
+}
+
+.field select option:first-child{
+    color: #888 !important;
+}
+
+/* ボタン */
+.btn {
+    display: block;
+    margin: 40px auto;
+    padding: 10px 40px;
+    background: #ccc;
+    border: none;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+body{
+    background: #ffffff !important
+}

@@ -1,0 +1,107 @@
+body {
+    font-family: "Times New Roman", serif;
+    background: #ffffff;
+    margin: 0;
+}
+
+/* コンテナ中央固定 */
+.container {
+    width: 800px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* タイトル */
+.title {
+    text-align: center;
+        font-size: 30px;
+        font-weight: normal;
+        margin: 0;
+        padding: 20px 0 10px;
+        border-bottom: 1px solid #ddd;
+}
+
+
+.subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+/* テーブル */
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 左カラム */
+.confirm-table th {
+    width: 250px;
+    background-color: #5a5a5a;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: left;
+    padding: 18px 20px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* 右カラム */
+.confirm-table td {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 18px 20px;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+}
+
+/* 枠線 */
+.confirm-table th,
+.confirm-table td {
+    border: 1px solid #e5e5e5;
+    text-align: left;
+}
+
+/* ボタンエリア */
+.button-area {
+    margin-top: 40px;
+}
+
+/* 送信ボタン */
+.btn-submit {
+    background-color: #6b6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* 修正リンク */
+.btn-edit {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #6b6b6b;
+    text-decoration: none;
+}
+
+.field .tel-display {
+    word-break: break-all;
+    /* 長いテキストでも折り返す */
+}
+
+/* 確認画面の電話番号だけ左寄せ */
+.confirm-table td.tel-display {
+    text-align: left !important;
+    /* 左寄せ */
+    display: block !important;
+    /* tdをブロック化して中央揃えを無視 */
+    margin-left: 0 !important;
+    /* 親中央揃えの余白をリセット */
+}
+
+.confirm-table td.tel-display {
+    text-align: left;
+    /* 追加の !important は不要 */
+}
